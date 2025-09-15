@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Disparo de Mensagem</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <div class="form-container">
+    <h1>Disparador WhatsApp / Telegram</h1>
+    <form id="disparadorForm">
+      <div class="form-group">
+        <label for="url-planilha">Digite a URL da planilha</label>
+        <textarea id="url-planilha" name="url-planilha" placeholder="Cole a URL da Planilha do Google Sheets"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="message">Digite a Mensagem</label>
+        <textarea id="message" name="message" placeholder="Sua mensagem aqui..."></textarea>
+      </div>
+      <div class="error" id="errorMsg"></div>
+      <div class="success" id="successMsg"></div>
+      <div class="buttons">
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+  </div>
+  <div class="footer">
+    <p>desenvolvido por <a>@alancardoso</a></p>
+  </div>
+
+<script src="./script.js"></script>
+</body>
+</html>
